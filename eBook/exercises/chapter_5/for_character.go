@@ -14,4 +14,9 @@ func main() {
 		println(str)
 		str += "G"
 	}
+	//3 - use one for loop and strings.Repeat
+	for i:=1; i<=25; i++{
+		str2 := strings.Repeat("G",i)
+		fmt.Println(str2)
+	}
 }
